@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form css</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body style="background: skyblue; background-image: url(img/jumbo.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+	<div class="container">
+		<h1 class="judul">FORM PENDAFTARAN MAHASISWA BARU</h1>
+		<form>
+			<div class="card">
+				<h2>FORMULIR PENDAFTARAN</h2>
+				<div class="d-flex">
+					<div class="col">
+						<table width="100%">
+							<tr>
+								<td width="200px">
+									<label for="no_pendaftaran">No Pendaftaran</label>
+								</td>
+								<td>
+									<div>
+										<input type="text" name="no_pendaftaran" id="no_pendaftaran" autocomplete="off">
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td width="200px">
+									<label for="Nama">Nama</label>
+								</td>
+								<td>
+									<div class="input">
+										<input type="text" name="Nama" id="Nama" autocomplete="off">
+									</div>
+								</td>
+							</tr>
+							<td width="200px">
+								<label for="Tanggal">Tanggal</label>
+							</td>
+							<td>
+								<input type="date" name="Tanggal" id="Tanggal" autocomplete="off">
+							</td>
+						</tr>
+						<td width="200px">
+							<label for="pria">jenis kelamin</label>
+						</td>
+						<td>
+							<input type="radio" name="pria" id="pria" autocomplete="off"> pria
+							<br>
+							<input type="radio" name="wanita" id="wanita" autocomplete="off">wanita
+						</td>
+					</tr><br>
+					<tr>
+						<td width="200px">
+							<label for="lampirkan file">lampirkan file</label>
+						</td>
+						<td>
+							<ol>
+								<li>lampirkan ijazah terakhir</li>
+								<li>ktp</li>
+								<li>kartu keluarga</li>
+								<li>akta kelahiran</li>
+							</ol><br>
+							<input type="file" id="myfile" name="myfile">
+						</td>
+					</tr>
+					<tr><br>
+						<td width="200px">
+							<label for="jurusan">jurusan</label>
+						</td>
+						<td>
+							<select>
+								<option>Pilih Jurusan</option>
+								<option>teknik informatika</option>
+								<option>manajemen informatika</option>
+								<option>rekayasa perangkat lunak</option>
+							</select>
+						</td>
+					</tr>
+					<td width="200px">
+						<label for="size_jas">size jas</label>
+					</td>
+					<td>
+						<select>
+							<option>L</option>
+							<option>XL</option>
+							<option>XXL</option>
+						</select>
+					</td>
+				</tr>
+				<td width="200px">
+					<label for="waktu kuliah">Waktu kuliah</label>
+				</td>
+				<td>
+					<select>
+						<option>pagi</option>
+						<option>sore</option>
+						<option>malam</option>
+					</select>
+				</td>
+			</tr>
+
+		</table><br><br>
+	</div>
+	<div class="col">
+		<img class="img-fluid" src="img/jumbo.png">
+		<h4 class="kampus">Universitas Kampus Merdeka</h4>
+		<p style="text-align: center; font-family: cursive;">Desa. Karangmangu Blok. Cantilan gang. Mbah Alimudin Rt.Rw 12/04</p>
+	</div>
+</div>
+<button type="submit">kirim</button>
+<button type="button" onclick="javascript:alert('Anda menekan tombol reset');"><img src="img/arrow_left.png"> reset</button>
+
+</div><br>
+<div class="card">
+	<h2 >DATA PRIBADI</h2>
+	<table>
+		<tr>
+			<td width="200px">
+				<label for="email">email</label>
+			</td>
+			<td>
+				<div class="input">
+					<input type="email" name="email" id autocomplete="off">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td width="200px">
+				<label for="password">password</label>
+			</td>
+			<td>
+				<div class="input">
+					<input type="password" name="password" id autocomplete="off">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td width="200px">
+				<label for="no_telp">no_telp</label>
+			</td>
+			<td>
+				<div class="input">
+					<input type="number" name="no_telp" id autocomplete="off">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td width="200px">
+				<label for="agama">Agama</label>
+			</td>
+			<td>
+				<select>
+					<option>islam</option>
+					<option>kristen</option>
+					<option>hindu</option>
+					<option>budha</option>
+					<option>dll</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td width="200px">
+				<label for="perkerjan">perkerjan</label>
+			</td>
+			<td>
+				<input type="radio" name="bekerja" id autocomplete="off">bekerja<br>
+				<input type="radio" name="tidak bekerja" id autocomplete="off">tidak bekerja
+			</td>
+		</tr>
+		<tr>
+			<td width="200px">
+				<label for="alamat">alamat</label>
+			</td>
+			<td>
+				<div class="input">
+					<textarea></textarea>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td width="200px">
+				<label for="nama ibu">nama ibu</label>
+			</td>
+			<td>
+				<input type="text" name="nama ibu" id autocomplete="off">
+			</td>
+		</tr>
+		<tr>
+			<td width="200px">
+				<label for="nama ayah">nama ayah</label>
+			</td>
+			<td>
+				<input type="text" name="nama ayah" id autocomplete="off">
+			</td>
+		</tr>
+	</table>
+	<button type="submit">kirim</button>
+	<button type="button" onclick="javascript:alert('Anda menekan tombol reset');"><img src="img/arrow_left.png"> reset</button>
+
+</div>
+</form>
+</div>
+
+</body>
+</html>
