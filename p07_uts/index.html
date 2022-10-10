@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA rika qodriah</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'cursive'; 
+}
+
+.navigasi{
+background-color: #00DBDE;
+background-image: #FAACA8;
+background-image: -webkit-linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+background-image: -moz-linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+background-image: -o-linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu li{
+    margin-right: 10px;
+}
+
+.menu a{
+    color: black;
+}
+.colok:hover {
+    cursor: pointer;
+    color: blue;
+    transition: .3s;
+}
+
+.berjalan{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 50px;
+    background-image: 
+}
+
+.konten{
+    width: 85%;
+    position: relative;
+    margin: auto;
+}
+
+.jendela{
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 1px gray;
+    width: 100%;
+    padding: 20px;
+    background-color: #FAACA8;
+    background-image: -webkit-linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-image: -moz-linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-image: -o-linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    color: black;
+}
+.jen{
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 1px gray;
+    width: 50%;
+    padding: 10px;
+    background-color: #FAACA8;
+    background-image: -webkit-linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-image: -moz-linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-image: -o-linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    color: black;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.baris{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    column-gap: 15px;
+}
+
+.tengah{
+    justify-content: center;
+    align-items: center;
+}
+
+.teks-kanan{
+    text-align: right;
+}
+
+.poto{
+    width: 100px;
+    border-radius: 30px;
+    border: 1px solid skyblue;
+    padding: 0px;
+    box-shadow: 2px 2px 3px 1px gray;
+} 
+
+.toltipku{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.toltipku .toltip{
+    visibility: hidden;
+    width: 120px;
+    background-color: #74EBD5;
+    background-image: -webkit-linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    background-image: -moz-linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    background-image: -o-linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.toltipku :hover .toltip{
+        visibility: visible;
+        font-family: monospace;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.isi-dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.isi-dropdown a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.isi-dropdown a:hover{
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .isi-dropdown{
+    display: block;
+}
+
+textarea{
+    min-width: 650px;
+    margin-bottom: 20px;
+}
+
+    </style>
+</head>
+<body class="badan">
+        <script type="text/javascript">
+            alert("Yakin mau tau website Rika?")
+        </script>
+
+    <nav class="navigasi">
+        <div class="toltipku"><h2>Rika Qodriah<span class="toltip">website resmi di larang copy!!!!</span></h2>
+       </div>
+        <ul class="menu">
+            <li><a class="colok" href="">home</a></li>
+            <li><a class="colok" href="tentang.html">tentang</a></li>
+            <li><a class="colok" href="#">my chalenge</a></li>
+            <div class="dropdown">
+                <div class="isi-dropdown">
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                </div>
+            </div>
+            <li><a class="colok" href="">contact</a></li>   
+            <li><a class="colok" href="">my sertifikat</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <marquee class="berjalan">
+           <h1>Welcome to website Rika Qodriah</h1>
+       </marquee>
+       <div class="konten">
+        <div class="baris tengah">
+            <div style="text-align: center;">
+                <img src="foto.jpg" class="poto">
+            </div>
+            <div class="jendela baris">
+                <div style="width: 50%;">
+                    <p><span>Hallo</span> selamat datang Bertie...</p>
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>Rika Qodriah</td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td>:</td>
+                            <td>41226052</td>
+                        </tr>
+                        <tr>
+                            <td>Kelas</td>
+                            <td>:</td>
+                            <td>TI-C2</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <p>Moto Ku</p>
+                    <p>"Hal-hal baik akan datang kepada mereka yang mau sabar menunggu.</p>
+                    <p>Hal-hal yang lebih besar akan datang kepada mereka yang turun langsung dan melakukan apa saja untuk mewujudkannya... :)"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><br>
+       <div class="jen">
+            <div style="width: 50%;">
+                <p><span>hayyy bestie</span>jika ad pertanyaan bisa isi kolom di bawah yahh!!</p><br>
+                <textarea class="area"></textarea>
+              <button type="submit">submit</button>
+            </div>
+       </div>
+</body>
+</html>
